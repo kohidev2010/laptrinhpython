@@ -76,3 +76,35 @@ print(txt.format("Tom","pizza","ice-cream"))"""
 x = txt.index("welcome")
 print(x)"""
 
+#string isalnum()--------------------------------------
+#Check if all the characters in the text are alphanumeric:
+"""txt = "company12"
+x = txt.isalnum()
+print(x)"""
+
+#isalpha()--------------------------------------
+#Check if all the characters in the text is alphabetic:
+"""txt = "CompanyX"
+x = txt.isalpha()
+print(x)"""
+
+#isdecimal()--------------------------------------
+"""txt = "1234"
+x = txt.isdecimal()
+print(x)"""
+"""
+userName = input("please enter your name:")
+userN =userName.isalpha()
+if (userN is True):
+    userPassword = input("enter your pass word(must be greater than 10):")
+    userP = userPassword.isalnum()
+    if userN is True:
+        confirmPassword = input("confirm your password")
+        if (userPassword == confirmPassword):
+            print("your pass is correct")
+        else:
+            print("it's is not correct")
+    else:
+        print("please enter again. your password is not reasonable")
+else:
+    print("username is not correct, username only must contain alphabetic. please try again")"""
