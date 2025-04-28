@@ -177,3 +177,61 @@ print(s4.isprintable())#True(khoang trang van in duoc)
 """s5 = "hello\tworld"
 print(s5.isprintable())"""
 
+#istitle()--------------------------------------
+#The istitle() method returns True if all words in a text start with a upper case letter, AND the rest of the word are lower case letters, otherwise False.
+#Chữ cái đầu tiên của mỗi từ phải viết hoa.
+#Các chữ cái còn lại trong từ phải viết thường.
+"""
+a = "Hello world"
+print(a.istitle())"""
+
+#join()--------------------------------------
+#Nó dùng để nối (ghép) các phần tử trong một danh sách (list), tuple, hoặc bất kỳ iterable nào thành một chuỗi duy nhất.
+#"chuỗi_ngăn_cách".join(iterable)
+"""words = ["python", "is", "fun"]
+result = "-".join(words)
+print(result)"""
+
+#ljust()--------------------------------------
+#Nó trả về một bản sao của chuỗi gốc, nhưng được căn trái và thêm ký tự (mặc định là dấu cách " ") vào bên phải cho đủ độ dài.
+"""txt = "banana"
+x = txt.ljust(10)
+print (x, "is my favorite fruit")"""
+
+#rjust()--------------------------------------
+"""txt = "banana"
+x = txt.rjust(10)
+print (x, "is my favorite fruit")"""
+
+#title()--------------------------------------
+"""txt = "welcome to my world"
+x = txt.title()
+print(x)"""
+#result : Welcome To My World
+
+#strip()--------------------------------------
+"""strip() là phương thức của chuỗi (str) trong Python.
+Nó dùng để xóa (cắt bỏ) các ký tự đầu và cuối chuỗi.
+Mặc định sẽ xóa khoảng trắng (space), tab (\t), xuống dòng (\n) đầu/cuối."""
+
+"""txt = "   hello world   "
+print(txt.strip())"""
+"""
+txt = "\n\t Hello Python \t\n"
+print(txt.strip())"""
+"""
+txt = "///hello///#"
+print(txt.strip("/,#"))"""
+
+#startswith()--------------------------------------
+"""txt = "hello welcome to my channel"
+print(txt.startswith("hello"))"""
+
+#split()--------------------------------------
+#Nó dùng để cắt một chuỗi thành danh sách (list) các chuỗi nhỏ hơn, dựa trên ký tự phân tách (separator).
+"""text = "hello,world,python"
+print(text.split(","))"""
+
+"""txt = "one-two-three-four"
+print(txt.split("-",2))"""
+#result ['one', 'two', 'three-four']
